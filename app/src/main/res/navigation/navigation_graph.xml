@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/blogFragment">
+
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.uni.gym.main.blog.view.BlogFragment"
+        android:label="@string/blog"
+        tools:layout="@layout/fragment_blog" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.uni.gym.main.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.uni.gym.main.home.view.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.uni.gym.main.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.uni.gym.main.courses.CoursesFragment"
+        android:label="@string/courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/allCoursesFragment"
+        android:name="com.uni.gym.main.home.view.AllCoursesFragment"
+        android:label="all courses"
+        tools:layout="@layout/fragment_all_courses" />
+
+    <fragment
+        android:id="@+id/forgotPassFragment"
+        android:name="com.uni.gym.auth.ForgotPassFragment"
+        android:label="forgot password"
+        tools:layout="@layout/fragment_forgot_pass" />
+    <fragment
+        android:id="@+id/commentFragment"
+        android:name="com.uni.gym.main.blog.view.CommentFragment"
+        android:label="post"
+        tools:layout="@layout/fragment_comment" />
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.uni.gym.main.blog.view.PhotoFragment"
+        android:label="photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.uni.gym.main.home.view.CourseFragment"
+        android:label="course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/sessionsFragment"
+        android:name="com.uni.gym.main.home.view.SessionsFragment"
+        android:label="sessions"
+        tools:layout="@layout/fragment_sessions" />
+    <fragment
+        android:id="@+id/sessionFragment"
+        android:name="com.uni.gym.main.home.view.SessionFragment"
+        android:label="session"
+        tools:layout="@layout/fragment_session" />
+
+</navigation>

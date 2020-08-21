@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph_auth"
+    app:startDestination="@id/signUpFragment">
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.uni.gym.auth.SignUpFragment"
+        android:label="sign_up_fragment"
+        tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.uni.gym.auth.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/forgotPassFragment"
+        android:name="com.uni.gym.auth.ForgotPassFragment"
+        android:label="fragment_forgot_pass"
+        tools:layout="@layout/fragment_forgot_pass" />
+    <fragment
+        android:id="@+id/goToHomeFragment"
+        android:name="com.uni.gym.auth.GoToHomeFragment"
+        android:label="fragment_go_to_home"
+        tools:layout="@layout/fragment_go_to_home" />
+</navigation>

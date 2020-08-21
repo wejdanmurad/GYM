@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#10A5A5</color>
+    <color name="colorPrimaryDark">#10A5A5</color>
+    <color name="colorAccent">#10A5A5</color>
+
+    <color name="action_bar">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray">#F3F4F9</color>
+    <color name="text_formal">#ffffff</color>
+    <color name="card_view_courses_txt1">#141A20</color>
+    <color name="card_view_courses_txt2">#9A9797</color>
+    <color name="dark_gray">#605D5D</color>
+
+    <!-- google -->
+    <color name="price_button_grey">#555</color>
+</resources>
